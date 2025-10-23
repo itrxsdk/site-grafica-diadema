@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título otimizado para SEO -->
+    <title>Planarte Gráfica | Impressão Digital e Offset em Diadema, SP</title>
+    
+    <!-- Meta Descrição para SEO -->
+    <meta name="description" content="Planarte Gráfica em Diadema: Soluções completas em impressão digital e offset. Embalagens, folhetos, sacolas, papelaria e mais. Peça seu orçamento!">
+    
+    <!-- Palavras-chave para SEO -->
+    <meta name="keywords" content="gráfica, impressão digital, offset, Diadema, SP, embalagens, folhetos, sacolas, papelaria, orçamento gráfico, gráfica rápida">
+
+        <!-- Favicon clássico -->
+    <link rel="icon" href="/favicon/favicon.ico">
+
+    <!-- PNGs (cobertura moderna) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16.png">
+
+    <!-- Apple / iOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+
+    <!-- PWA / Android -->
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <!-- Cor da interface do navegador -->
+    <meta name="theme-color" content="#231F20">
+
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- JS externo com tailwind.config e toda a lógica do site (mesma ordem do original) -->
+    <script src="script.js"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    
+    <!-- CSS externo com o conteúdo do <style> original -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-100 text-slate-800 dark:bg-black-print dark:text-slate-300 antialiased transition-colors duration-300">
+
+    <!-- Cabeçalho e Barra de Navegação -->
+    <header class="bg-slate-100/80 dark:bg-black-print/80 backdrop-blur-md sticky top-0 z-50 shadow-md transition-colors duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+             <!-- Logo em Texto -->
+             <a href="#inicio" class="flex items-center gap-3" aria-label="Planarte Gráfica - Início">
+  <img src="img/planarte-logo3-corrigida-crop.png" alt="Planarte Gráfica"
+       class="h-16 md:h-20 w-auto">
+</a>
+            
+            <div class="hidden md:flex items-center">
+                <nav class="flex items-center space-x-10"> 
+                    <a href="#inicio" class="nav-link font-semibold text-slate-600 dark:text-slate-400 hover:text-cyan-print dark:hover:text-cyan-print transition-colors">Início</a>
+                    <a href="#servicos" class="nav-link font-semibold text-slate-600 dark:text-slate-400 hover:text-cyan-print dark:hover:text-cyan-print transition-colors">Serviços</a>
+                    <a href="#sobre-nos" class="nav-link font-semibold text-slate-600 dark:text-slate-400 hover:text-cyan-print dark:hover:text-cyan-print transition-colors">Sobre Nós</a>
+                    <a href="#portfolio" class="nav-link font-semibold text-slate-600 dark:text-slate-400 hover:text-cyan-print dark:hover:text-cyan-print transition-colors">Portfólio</a>
+                    <a href="#orcamento" class="nav-link font-semibold text-slate-600 dark:text-slate-400 hover:text-cyan-print dark:hover:text-cyan-print transition-colors">Orçamento</a>
+                    <a href="#contato" class="nav-link font-semibold text-slate-600 dark:text-slate-400 hover:text-cyan-print dark:hover:text-cyan-print transition-colors">Contato</a>
+                </nav>
+                 <!-- Botão com gradiente CMYK -->
+                <a href="#orcamento" class="bg-gradient-to-r from-cyan-print via-magenta-print to-yellow-print text-black-print text-base font-bold px-6 py-3 rounded-lg hover:opacity-80 transition-all duration-300 ml-10 transform hover:scale-105 shadow-md hover:shadow-lg"> 
+                    Faça seu orçamento
+                </a>
+                <button id="theme-toggle" type="button" class="ml-6 text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 focus:outline-none rounded-lg text-sm p-2.5 transition-colors duração-300">
+                    <svg id="theme-toggle-dark-icon" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm-.707 10.607a1 1 0 011.414 0l.707-.707a1 1 0 111.414 1.414l-.707.707a1 1 0 01-1.414 0z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                </button>
+            </div>
+            
+            <div class="flex items-center md:hidden">
+                <button id="theme-toggle-mobile" type="button" class="mr-4 text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 focus:outline-none rounded-lg text-sm p-2.5 transition-colors duração-300">
+                    <svg id="theme-toggle-dark-icon-mobile" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                    <svg id="theme-toggle-light-icon-mobile" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm-.707 10.607a1 1 0 011.414 0l.707-.707a1 1 0 111.414 1.414l-.707.707a1 1 0 01-1.414 0z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                </button>
+                <button id="menu-btn" class="md:hidden text-slate-600 dark:text-slate-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden transition-colors duração-300">
+             <a href="#inicio" class="nav-mobile-link block py-3 px-6 text-base text-slate-600 dark:text-slate-300 hover:bg-cyan-50 dark:hover:bg-slate-800">Início</a>
+             <a href="#servicos" class="nav-mobile-link block py-3 px-6 text-base text-slate-600 dark:text-slate-300 hover:bg-cyan-50 dark:hover:bg-slate-800">Serviços</a>
+             <a href="#sobre-nos" class="nav-mobile-link block py-3 px-6 text-base text-slate-600 dark:text-slate-300 hover:bg-cyan-50 dark:hover:bg-slate-800">Sobre Nós</a>
+             <a href="#portfolio" class="nav-mobile-link block py-3 px-6 text-base text-slate-600 dark:text-slate-300 hover:bg-cyan-50 dark:hover:bg-slate-800">Portfólio</a>
+             <a href="#orcamento" class="nav-mobile-link block py-3 px-6 text-base text-slate-600 dark:text-slate-300 hover:bg-cyan-50 dark:hover:bg-slate-800">Orçamento</a>
+             <a href="#contato" class="nav-mobile-link block py-3 px-6 text-base text-slate-600 dark:text-slate-300 hover:bg-cyan-50 dark:hover:bg-slate-800">Contato</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="min-h-screen flex items-center justify-center p-6 relative overflow-hidden">
+            <div class="text-center reveal z-10">
+                <!-- Título H1 principal da página -->
+                <h1 class="text-6xl md:text-8xl font-black text-black-print dark:text-white leading-tight"> 
+                    Impressão que Transforma
+                    <br>
+                    <span class="text-cyan-print">Sua Ideia em Arte.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 mt-8 max-w-3xl mx-auto font-medium">
+                    Qualidade, agilidade e os melhores materiais para dar vida aos seus projetos. Soluções completas em impressão digital e offset.
+                </p>
+                <a href="#orcamento" class="inline-block bg-gradient-to-r from-cyan-print via-magenta-print to-yellow-print text-black-print text-lg font-bold px-12 py-4 mt-12 rounded-lg transition-all duração-300 transform hover:scale-105 shadow-lg hover:shadow-xl hover:brightness-110">
+                    Solicite um Orçamento
+                </a>
+            </div>
+        </section>
+
+        <section id="servicos" class="py-24 px-6 bg-white dark:bg-black-print/50 transition-colors duração-300 section-gradient">
+             <div class="container mx-auto text-center">
+                <div class="reveal">
+                    <!-- Título H2 da seção -->
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-black-print dark:text-white mb-4">Nossos Serviços</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-400 mt-4 mb-16 max-w-3xl mx-auto">Do conceito à impressão final, oferecemos soluções completas com a criatividade e a qualidade que sua marca merece.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-left">
+                    <!-- Card 1 (Sem delay) -->
+                    <div class="bg-slate-100 dark:bg-slate-800 p-8 rounded-xl shadow-md card-hover reveal">
+                        <div class="w-14 h-14 bg-cyan-print/10 text-cyan-print rounded-lg flex items-center justify-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14M16.5 9.4l-9-5.19"/><path d="M3.27 6.96 12 12.01l8.73-5.05"/><path d="M12 22.08V12"/><path d="M17 18.5c.34.14.7.27 1.09.38"/><path d="M20.5 14.5A2.5 2.5 0 0 0 18 12h0a2.5 2.5 0 0 0-2.5 2.5V16a.5.5 0 0 0 .5.5h0a.5.5 0 0 0 .5-.5v-1a1.5 1.5 0 0 1 1.5-1.5h0a1.5 1.5 0 0 1 1.5 1.5v4.5"/></svg></div>
+                        <h3 class="text-xl font-bold text-black-print dark:text-white mb-2">Embalagens Personalizadas</h3>
+                        <p class="text-slate-600 dark:text-slate-400">Criamos embalagens únicas que valorizam seu produto e fortalecem sua marca no mercado.</p>
+                    </div>
+                    <!-- Card 2 (Sem delay) -->
+                    <div class="bg-slate-100 dark:bg-slate-800 p-8 rounded-xl shadow-md card-hover reveal">
+                         <div class="w-14 h-14 bg-magenta-print/10 text-magenta-print rounded-lg flex items-center justify-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2h0a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h8"/><path d="M18 9h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3H13"/><path d="M12 15v1"/></svg></div>
+                        <h3 class="text-xl font-bold text-black-print dark:text-white mb-2">Folhetos e Flyers</h3>
+                        <p class="text-slate-600 dark:text-slate-400">Divulgue suas promoções e eventos com folhetos de alta qualidade e impacto visual.</p>
+                    </div>
+                    <!-- Card 3 (Sem delay) -->
+                    <div class="bg-slate-100 dark:bg-slate-800 p-8 rounded-xl shadow-md card-hover reveal">
+                         <div class="w-14 h-14 bg-yellow-print/20 text-yellow-600 dark:bg-yellow-print/10 dark:text-yellow-print rounded-lg flex items-center justify-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+                        <h3 class="text-xl font-bold text-black-print dark:text-white mb-2">Sacolas Customizadas</h3>
+                        <p class="text-slate-600 dark:text-slate-400">Leve sua marca para todos os lugares com sacolas personalizadas, duráveis e elegantes.</p>
+                    </div>
+                     <!-- Card 4 (Sem delay) -->
+                     <div class="bg-slate-100 dark:bg-slate-800 p-8 rounded-xl shadow-md card-hover reveal">
+                        <div class="w-14 h-14 bg-cyan-print/10 text-cyan-print rounded-lg flex items-center justify-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>
+                        <h3 class="text-xl font-bold text-black-print dark:text-white mb-2">Envelopes Corporativos</h3>
+                        <p class="text-slate-600 dark:text-slate-400">Transmita profissionalismo em sua correspondência com envelopes com sua identidade visual.</p>
+                    </div>
+                     <!-- Card 5 (Sem delay) -->
+                     <div class="bg-slate-100 dark:bg-slate-800 p-8 rounded-xl shadow-md card-hover reveal">
+                        <div class="w-14 h-14 bg-magenta-print/10 text-magenta-print rounded-lg flex items-center justify-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/></svg></div>
+                        <h3 class="text-xl font-bold text-black-print dark:text-white mb-2">Papelaria Institucional</h3>
+                        <p class="text-slate-600 dark:text-slate-400">Cartões de visita, papéis timbrados e pastas que consolidam a imagem da sua empresa.</p>
+                    </div>
+                     <!-- Card 6 (Sem delay) -->
+                     <div class="bg-slate-100 dark:bg-slate-800 p-8 rounded-xl shadow-md card-hover reveal">
+                        <div class="w-14 h-14 bg-yellow-print/20 text-yellow-600 dark:bg-yellow-print/10 dark:text-yellow-print rounded-lg flex items-center justify-center mb-5"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5C6.5 5 2 8.5 2 12s4.5 7 10 7c.2 0 .5 0 .7-.1L18 22l-1-4.1c1.3-1.1 2-3.1 2-5.4 0-4.5-4.5-7-10-7Z"/><path d="M17.5 9.5a.5.5 0 0 1-1 0 .5.5 0 0 1 1 0Z"/><path d="M12.5 9.5a.5.5 0 0 1-1 0 .5.5 0 0 1 1 0Z"/><path d="M7.5 9.5a.5.5 0 0 1-1 0 .5.5 0 0 1 1 0Z"/></svg></div>
+                        <h3 class="text-xl font-bold text-black-print dark:text-white mb-2">E muito mais!</h3>
+                        <p class="text-slate-600 dark:text-slate-400">Traga sua ideia e nós a transformamos em realidade com a melhor qualidade de impressão.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nova Seção Sobre Nós -->
+        <section id="sobre-nos" class="py-24 px-6">
+            <div class="container mx-auto max-w-6xl reveal">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-black-print dark:text-white mb-4">Sobre Nós</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-400 mt-4 max-w-3xl mx-auto">Conheça nossa paixão por transformar ideias em realidade.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                    <div class="reveal" style="transition-delay: 100ms;">
+                        <!-- Imagem de placeholder com o tema -->
+                        <img src="img/images (1).jpg" alt="Escritório ou impressora da Planarte Gráfica" class="rounded-xl shadow-lg w-full h-full object-cover">
+                    </div>
+                    <div class="space-y-6 reveal" style="transition-delay: 200ms;">
+                        <h3 class="text-3xl font-bold text-black-print dark:text-white">Qualidade e Parceria em Impressão</h3>
+                        <p class="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+                            A Planarte Gráfica nasceu do amor pelo papel e pela impressão. Com mais de X anos de experiência em Diadema, entendemos que cada projeto é único.
+                        </p>
+                        <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                            Não somos apenas uma gráfica; somos parceiros estratégicos prontos para oferecer a melhor solução em impressão digital e offset. Nossa missão é combinar tecnologia de ponta com um atendimento próximo e ágil, garantindo que suas ideias saiam do papel com a máxima qualidade e no prazo que você precisa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nova Seção de Portfólio -->
+        <section id="portfolio" class="py-24 px-6 bg-white dark:bg-black-print/50 transition-colors duração-300 section-gradient">
+            <div class="container mx-auto text-center reveal">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-black-print dark:text-white mb-4">Nosso Portfólio</h2>
+                <p class="text-lg text-slate-600 dark:text-slate-400 mt-4 mb-16 max-w-3xl mx-auto">Veja alguns dos trabalhos que nos orgulhamos de ter produzido.</p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Imagem 1 -->
+                    <div class="relative overflow-hidden rounded-xl shadow-lg reveal" data-src="https://i.ibb.co/6D90s5V/maite-miyao-sacola.jpg">
+                        <img src="img/WhatsApp Image 2025-10-20 at 16.19.23 (1).jpeg" alt="Sacola personalizada Maite Miyao" class="w-full h-96 object-cover transition-transform duração-500 transform">
+                    </div>
+                    <!-- Imagem 2 -->
+                    <div class="relative overflow-hidden rounded-xl shadow-lg reveal" style="transition-delay: 100ms;" data-src="https://i.ibb.co/PNwPSvT/hell-sinner-caixa.jpg">
+                        <img src="img/WhatsApp Image 2025-10-20 at 16.19.23.jpeg" alt="Caixa de suplemento Hell Sinner" class="w-full h-96 object-cover transition-transform duração-500 transform">
+                    </div>
+                    <!-- Imagem 3 -->
+                    <div class="relative overflow-hidden rounded-xl shadow-lg reveal" style="transition-delay: 200ms;" data-src="https://i.ibb.co/hK590cW/edl-sneakers-embalagem.jpg">
+                        <img src="img/WhatsApp Image 2025-10-20 at 16.19.22 (2).jpeg" alt="Embalagem para tênis EDL Sneakers" class="w-full h-96 object-cover transition-transform duração-500 transform">
+                    </div>
+                    <!-- Imagem 4 -->
+                    <div class="relative overflow-hidden rounded-xl shadow-lg reveal" style="transition-delay: 300ms;" data-src="https://i.ibb.co/8Yj0LwS/sonho-meu-sacola.jpg">
+                        <img src="img/WhatsApp Image 2025-10-20 at 16.19.22 (1).jpeg" alt="Sacola azul Sonho Meu Moda Infantil" class="w-full h-96 object-cover transition-transform duração-500 transform">
+                    </div>
+                    <!-- Imagem 5 -->
+                    <div class="relative overflow-hidden rounded-xl shadow-lg reveal" style="transition-delay: 400ms;" data-src="https://i.ibb.co/yQW2YwL/my-box-pet-caixas.jpg">
+                         <img src="img/WhatsApp Image 2025-10-20 at 16.19.22.jpeg" alt="Caixas de assinatura My Box Pet" class="w-full h-96 object-cover transition-transform duração-500 transform">
+                    </div>
+                     <!-- Imagem 6 (Placeholder) -->
+                    <div class="relative overflow-hidden rounded-xl shadow-lg reveal" style="transition-delay: 500ms;" data-src="https://placehold.co/600x600/231F20/FFF200?text=Seu+Projeto+Aqui">
+                         <img src="https://placehold.co/600x600/231F20/FFF200?text=Seu+Projeto+Aqui" alt="Placeholder para futuro projeto" class="w-full h-96 object-cover transition-transform duração-500 transform">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="orcamento" class="py-24 px-6 bg-slate-200 dark:bg-slate-800 transition-colors duração-300 section-gradient">
+            <div class="container mx-auto max-w-4xl reveal">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-black-print dark:text-white">Peça seu Orçamento</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-400 mt-4">Preencha o formulário e nossa equipe entrará em contato em breve.</p>
+                </div>
+                <div class="bg-white dark:bg-black-print/50 p-8 md:p-12 rounded-xl shadow-xl transition-colors duração-300">
+                    <form id="form-orcamento" novalidate>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="nome" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Nome Completo</label>
+                                <input type="text" id="nome" name="nome" required class="form-input w-full px-4 py-3 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 rounded-lg focus:ring-2 focus:ring-cyan-print focus:outline-none transition-colors duração-300">
+                                <p class="error-message text-red-500 text-xs mt-1 hidden">Campo obrigatório.</p>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">E-mail</label>
+                                <input type="email" id="email" name="email" required class="form-input w-full px-4 py-3 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 rounded-lg focus:ring-2 focus:ring-cyan-print focus:outline-none transition-colors duração-300">
+                                <p class="error-message text-red-500 text-xs mt-1 hidden">Por favor, insira um e-mail válido.</p>
+                            </div>
+                            <div>
+                                <label for="telefone" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Telefone / WhatsApp</label>
+                                <input type="tel" id="telefone" name="telefone" required class="form-input w-full px-4 py-3 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 rounded-lg focus:ring-2 focus:ring-cyan-print focus:outline-none transition-colors duração-300" maxlength="15">
+                                 <p class="error-message text-red-500 text-xs mt-1 hidden">Campo obrigatório.</p>
+                            </div>
+                            <div>
+                                <label for="servico" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Tipo de Serviço</label>
+                                <select id="servico" name="servico" required class="form-input w-full px-4 py-3 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 rounded-lg focus:ring-2 focus:ring-cyan-print focus:outline-none transition-colors duração-300">
+                                    <option value="">Selecione um serviço</option>
+                                    <option>Embalagens Personalizadas</option>
+                                    <option>Folhetos e Flyers</option>
+                                    <option>Sacolas Customizadas</option>
+                                    <option>Envelopes Corporativos</option>
+                                    <option>Papelaria Institucional</option>
+                                    <option>Outro</option>
+                                </select>
+                                <p class="error-message text-red-500 text-xs mt-1 hidden">Por favor, selecione um serviço.</p>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <label for="descricao" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Descrição do Projeto <span class="text-xs text-slate-500 dark:text-slate-400">(Opcional)</span></label>
+                            <textarea id="descricao" name="descricao" rows="4" class="form-input w-full px-4 py-3 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 rounded-lg focus:ring-2 focus:ring-cyan-print focus:outline-none transition-colors duração-300" placeholder="Informe detalhes como quantidade, tamanho, tipo de papel, acabamento, etc."></textarea>
+                            <!-- Mensagem de erro removida pois o campo não é mais obrigatório -->
+                        </div>
+                        <div class="mb-8">
+                            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Anexar Arquivo (Opcional)</label>
+                            <label for="arquivo" class="cursor-pointer inline-flex items-center bg-white dark:bg-slate-700 text-cyan-print border border-cyan-print font-semibold py-2 px-4 rounded-lg hover:bg-cyan-print/10 dark:hover:bg-cyan-print/20 transition-colors duração-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+                                <span>Escolher Arquivo</span>
+                            </label>
+                            <input type="file" id="arquivo" name="arquivo" class="hidden">
+                            <div id="file-info" class="mt-2 text-sm text-slate-600 dark:text-slate-400 hidden">
+                                <span id="file-name"></span>
+                                <button type="button" id="remove-file-btn" class="ml-2 text-red-500 hover:underline">[Remover]</button>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                             <button type="submit" id="submit-button" class="bg-gradient-to-r from-cyan-print via-magenta-print to-yellow-print text-black-print text-lg font-bold px-10 py-4 rounded-lg hover:opacity-80 transition-all duração-300 disabled:opacity-50 inline-flex items-center justify-center shadow-md hover:shadow-lg transform hover:scale-105 min-w-[200px]">
+                                <span class="btn-text">Enviar Solicitação</span>
+                                <svg class="animate-spin h-5 w-5 text-black-print hidden btn-spinner" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                    <div id="form-feedback" class="mt-6 text-center text-lg"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="py-24 px-6">
+            <div class="container mx-auto max-w-6xl reveal">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-black-print dark:text-white">Entre em Contato</h2>
+                    <p class="text-lg text-slate-600 dark:text-slate-400 mt-4">Estamos prontos para transformar sua ideia em realidade.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-10"> 
+                        <div>
+                            <h3 class="text-xl font-bold text-black-print dark:text-white flex items-center mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mr-3 text-cyan-print"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Endereço</h3>
+                            <p class="text-slate-600 dark:text-slate-400 pl-9">R. Panamericana, 180 - Taboão<br>Diadema - SP, 09930-200</p>
+                        </div>
+                         <div>
+                            <h3 class="text-xl font-bold text-black-print dark:text-white flex items-center mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mr-3 text-cyan-print"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Telefone</h3>
+                            <p class="text-slate-600 dark:text-slate-400 pl-9">(11) 98802-6033</p>
+                        </div>
+                         <div>
+                            <h3 class="text-xl font-bold text-black-print dark:text-white flex items-center mb-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mr-3 text-cyan-print"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>E-mail</h3>
+                            <a href="mailto:contato@planartegrafica.com.br" class="text-slate-600 dark:text-slate-400 pl-9 hover:text-cyan-print transition-colors">contato@planartegrafica.com.br</a>
+                        </div>
+                        
+                        <div class="pt-4">
+                             <h3 class="text-xl font-bold text-black-print dark:text-white flex items-center mb-4">Siga-nos</h3>
+                            <div class="flex space-x-5"> 
+                                <!-- Instagram - Efeito de cor removido -->
+                                <a href="https://www.instagram.com/planartegrafica?igsh=d2Y1NTUwZW0yZ2sw" target="_blank" class="w-12 h-12 bg-slate-200 dark:bg-slate-700 rounded-full flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600 transition-all transform hover:scale-110"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+                                <!-- LinkedIn - Efeito de cor removido -->
+                                <a href="#" target="_blank" class="w-12 h-12 bg-slate-200 dark:bg-slate-700 rounded-full flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600 transition-all transform hover:scale-110"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+                                <!-- WhatsApp - Efeito de cor removido -->
+                                <a href="https://wa.me/5511988023066" target="_blank" class="w-12 h-12 bg-slate-200 dark:bg-slate-700 rounded-full flex items-center justify-center text-slate-600 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600 transition-all transform hover:scale-110"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.269.654 4.322 1.905 6.012l-1.105 4.056 4.155-1.088z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.43343467657!2d-46.61117568817757!3d-23.62479207865914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b3b147d3f21%3A0x6b1f238b1d9c9e8a!2sR.%20Panamericana%2C%20180%20-%20Tabo%C3%A3o%2C%20Diadema%20-%20SP%2C%2009930-200!5e0!3m2!1spt-BR!2sbr!4v1729605809831!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg shadow-lg dark:grayscale dark:opacity-80"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-black-print text-slate-300 dark:bg-black/50 dark:text-slate-400 transition-colors duração-300">
+        <div class="container mx-auto px-6 py-10 text-center"> 
+            <p>&copy; 2024 Planarte Gráfica. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5511988023066" target="_blank" class="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-xl hover:bg-green-600 transition-all transform hover:scale-110 flex items-center justify-center z-40"> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.269.654 4.322 1.905 6.012l-1.105 4.056 4.155-1.088z"/></svg>
+    </a>
+
+    <!-- Modal do Portfólio (HTML) - REMOVIDO -->
+    <!--
+    <div id="portfolio-modal" class="fixed inset-0 bg-black/80 dark:bg-black/90 hidden items-center justify-center z-[999] p-4 cursor-pointer transition-opacity duração-300" role="dialog" aria-modal="true">
+        <div class="relative w-full max-w-4xl max-h-full">
+            <button id="modal-close-btn" class="absolute -top-10 -right-2 md:-right-10 text-white text-6xl font-light hover:text-slate-300 transition-colors">&times;</button>
+            <img id="modal-img" src="" alt="Imagem do Portfólio em destaque" class="block max-w-full max-h-[90vh] rounded-lg shadow-2xl mx-auto">
+        </div>
+    </div>
+    -->
+</body>
+</html>
